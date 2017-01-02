@@ -5,6 +5,11 @@ use App\User;
 use Illuminate\Http\Request;
 class UserController extends Controller
 {
+
+	public function getDashboard()
+	{
+	return view ('dashboard');
+	}
 	public function postSignUp(Request $request) 
 	{
 	 $email=$request['email'];
