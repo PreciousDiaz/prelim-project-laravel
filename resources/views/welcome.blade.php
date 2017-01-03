@@ -25,7 +25,7 @@ Welcome!
 		</form>
 	</div>
 	
-	<div class= "col-6">
+	<div class= "col-md-6">
 		<h3>Sign In</h3>
 	 <form action="#" method ="post">
 		<div class ="form-group">
